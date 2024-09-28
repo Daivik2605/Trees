@@ -47,6 +47,18 @@ A **segment tree** is a binary tree used for storing intervals or segments. It a
 A **Fenwick Tree**, also called a **Binary Indexed Tree (BIT)**, is a data structure that provides efficient methods for calculation and manipulation of prefix sums. It is used to perform both point updates and prefix queries in O(log n) time.
 
 ---
+## 112 - Path Sum Problem
+
+### Problem Description
+
+The Path Sum problem involves determining whether a binary tree has a root-to-leaf path such that the sum of the node values along the path equals a given `targetSum`. A leaf is a node with no children.
+
+### Example
+
+Given the binary tree:
+
+
+---
 
 ## How to Use This Repository
 
