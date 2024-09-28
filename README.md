@@ -55,7 +55,13 @@ The Path Sum problem involves determining whether a binary tree has a root-to-le
 
 ### Example
 
-Given the binary tree:
+- **Input**: `root = [5,4,8,11,null,13,4,7,2,null,null,null,1]`, `targetSum = 22`
+- **Output**: `True`
+- **Explanation**: The path 5 -> 4 -> 11 -> 2 sums up to 22.
+
+### Note
+
+Feel free to check out the [code implementation](./112-pathsum.py) and try it yourself!
 
 
 ---
