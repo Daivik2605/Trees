@@ -17,6 +17,39 @@ A **binary tree** is a type of tree in which each node has at most two children.
 - **Perfect Binary Tree**: A binary tree in which all interior nodes have two children and all leaf nodes are at the same level.
 - **Degenerate (or Pathological) Binary Tree**: A binary tree where each parent node has only one child, making it essentially a linked list.
 
+  # Binary Tree Implementation in Python
+
+This repository contains an implementation of a **Binary Tree** in Python. The code defines a `Node` class and a `BinaryTree` class that supports various tree operations such as insertion, searching, and traversal.
+
+## Features
+
+- **Node class**: Represents a node in the binary tree, holding the value and pointers to its left and right children.
+- **BinaryTree class**: 
+  - Allows for inserting new values into the tree.
+  - Supports searching for a value in the tree.
+  - Provides different tree traversal methods: 
+    - **In-order Traversal**
+    - **Pre-order Traversal**
+    - **Post-order Traversal**
+
+## Traversals
+
+### In-order Traversal (Left, Root, Right)
+- Visits the left subtree first, then the root node, and finally the right subtree.
+- This traversal returns the values in ascending order if the tree is a Binary Search Tree (BST).
+
+### Pre-order Traversal (Root, Left, Right)
+- Visits the root node first, followed by the left subtree, and then the right subtree.
+
+
+### Post-order Traversal (Left, Right, Root)
+- Visits the left subtree first, followed by the right subtree, and finally the root node.
+
+## Search Operation
+
+The tree also supports a search function to find whether a specific value exists in the tree. The search function performs recursively, starting from the root node and traversing down the tree.
+
+
 ### 3. Binary Search Tree (BST)
 A **binary search tree** is a binary tree with an additional property: for every node, the values in its left subtree are less than the node’s value, and the values in its right subtree are greater than the node’s value. This property makes searching operations faster, making BSTs a common choice for searching tasks.
 
