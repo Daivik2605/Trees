@@ -48,7 +48,9 @@ This repository contains an implementation of a **Binary Tree** in Python. The c
 #### Search Operation
 
 The tree also supports a search function to find whether a specific value exists in the tree. The search function performs recursively, starting from the root node and traversing down the tree.
+### Note
 
+Feel free to check out the [code implementation](./general-tree.py) and try it yourself!
 
 ## 3. Binary Search Tree (BST)
 A **binary search tree** is a binary tree with an additional property: for every node, the values in its left subtree are less than the node’s value, and the values in its right subtree are greater than the node’s value. This property makes searching operations faster, making BSTs a common choice for searching tasks.
@@ -80,13 +82,13 @@ A **segment tree** is a binary tree used for storing intervals or segments. It a
 A **Fenwick Tree**, also called a **Binary Indexed Tree (BIT)**, is a data structure that provides efficient methods for calculation and manipulation of prefix sums. It is used to perform both point updates and prefix queries in O(log n) time.
 
 ---
-## 112 - Path Sum Problem
+#### 112 - Path Sum Problem
 
-### Problem Description
+##### Problem Description
 
 The Path Sum problem involves determining whether a binary tree has a root-to-leaf path such that the sum of the node values along the path equals a given `targetSum`. A leaf is a node with no children.
 
-### Example
+##### Example
 
 - **Input**: `root = [5,4,8,11,null,13,4,7,2,null,null,null,1]`, `targetSum = 22`
 - **Output**: `True`
